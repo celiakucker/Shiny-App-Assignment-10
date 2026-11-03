@@ -9,14 +9,20 @@ This project analyzes fatal traffic crashes in the United States from 2023 to 20
 The data used in this project comes from https://www.nhtsa.gov/data and uses fatal crash data from 2023 and 2024, including accident and vehicle information.
 
 ## Features
-**Vehicle Types:** Compares the number of vehicles involved in fatal crashes by vehicle type.
-**Weather & Road Conditions:** Explores the relationship between weather conditions and road surface conditions in fatal crashes.
-**State Comparison:** Displays the distribution of fatal crashes across the U.S. using an interactive map.
-Users can filter by year, state, and weather condition.
+**Vehicle Types:** Compares the number of vehicles involved in fatal crashes by vehicle type.  
+**Weather & Road Conditions:** Explores the relationship between weather conditions and road surface conditions in fatal crashes.  
+**State Comparison:** Displays the distribution of fatal crashes across the U.S. using an interactive map.  
+
+Users can filter by year, state, and weather condition.  
+
+## Repository Structure
+`app.R` - Contains code for the Shiny App  
+`crashdata.parquet` - Processed crash dataset used by the App  
+`README.md` - Provides overview and instructions for the App  
 
 ## How to Run the Shiny App
 1. Install R and RStudio
 2. download this repository
-3. Install required R packages:
-  install.packages(c("shiny", "bslib", "dplyr", "ggplot2", "arrow", "plotly", "usmap"))
+3. Install required R packages:  
+  `install.packages(c("shiny", "bslib", "dplyr", "ggplot2", "arrow", "plotly", "usmap"))`
 4. Open project in RStudio and run App.
